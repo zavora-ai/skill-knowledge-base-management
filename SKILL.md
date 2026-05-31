@@ -1,11 +1,11 @@
 ---
 name: knowledge-base-management
 description: Manage knowledge base — search articles, find related content, create drafts, publish articles, collect feedback, and detect knowledge gaps. Use when searching for solutions, creating KB articles, finding related content, identifying gaps, or improving article quality.
-version: "1.0.0"
 license: Apache-2.0
+compatibility: Requires mcp-knowledge-base server connected.
 allowed-tools: [search_articles, get_article, find_related, create_draft, suggest_update, publish_article, record_feedback, list_articles, get_knowledge_gaps]
-tags: [communication, knowledge-base, documentation, search]
 metadata:
+  category: communication
   author: Zavora AI
   mcp-server: mcp-knowledge-base
 ---
